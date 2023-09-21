@@ -1,0 +1,18 @@
+.env
+/bak/
+# Temp
+/tmp/
+build/
+docs/build/
+docs/_build/
+dist/
+*.egg-info/
+colors
+
+# IDE
+.idea/
+# jupyter
+.ipynb_checkpoints
+#docs/source/_static/
+#docs/source/_templates/
+.DS_Store
