@@ -43,6 +43,7 @@
 ~~~shell
 pip install akshare, openai, pandas, requests, difflib, python-dotenv  
 ~~~
+其中[AKShare](https://github.com/akfamily/akshare) 是基于 Python 的财经数据接口库，目的是实现对股票、期货、期权、基金、外汇、债券、指数、加密货币等金融产品的基本面数据、实时和历史行情数据、衍生数据。以及新闻、公告、基本面、股票热度人气。 从数据采集、数据清洗到数据落地的一套工具。  
 
 ### 创建 .env 文件
 本项目采用 .env 文件实现代码和配置分离  
@@ -81,3 +82,4 @@ akshare本质上是爬虫，对一些数据源（比如巨潮资讯、新浪财�
 · [OpenAI微调模型](https://platform.openai.com/docs/guides/fine-tuning)  
 · [专访唐岳华博士：支招ChatGPT炒股（内附独家视频）](https://mp.weixin.qq.com/s/sfhK0hjCKXUU-d74-6KrQQ)  
 · [Can ChatGPT Forecast Stock Price Movements? Return Predictability and Large Language Models](https://arxiv.org/pdf/2304.07619.pdf)  
+· [AKShare数据字典](https://akshare.akfamily.xyz/data/index.html)
