@@ -21,8 +21,8 @@
 · [3_LLM对新闻进行解读.ipynb](3_LLM对新闻进行解读.ipynb) 使用LLM对财联社电报进行解读；LLM当前使用的是ChatGPT 3.5，由于ChatGPT在中国无法直接访问，故使用 [API2D的转发接口](https://api2d-doc.apifox.cn/api-84787447)。考虑到复杂的Prompt，或可能需要在一次提问中批量查询，故还加入了计算token数量的函数。  
 
 提示词：  
-· [system_prompt.md](system_prompt.md) 输入给LLM的提示词。由于格式较为复杂，故独立成文件，程序运行时将读取并输入给LLM。
-· [system_prompt_啰嗦版.md](system_prompt_啰嗦版.md) 在system_prompt.md的基础上多，针对不同的新闻场景加了几个示例，后来发现ChatGPT一个示例就够了，其它LLM可能需要多个示例。保留以供参考。
+· [system_prompt.md](system_prompt.md) 输入给LLM的提示词。由于格式较为复杂，故独立成文件，程序运行时将读取并输入给LLM。  
+· [system_prompt_啰嗦版.md](system_prompt_啰嗦版.md) 在system_prompt.md的基础上多，针对不同的新闻场景加了几个示例，后来发现ChatGPT一个示例就够了，其它LLM可能需要多个示例。保留以供参考。  
 
 ## 数据存储  
 目前采用csv格式存储，位于 data 目录下。  
