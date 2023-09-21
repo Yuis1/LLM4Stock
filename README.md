@@ -32,10 +32,10 @@
 
 中间结果：  
 · data/stock_profile_cninfo.csv 从 巨潮资讯网 获取的股票信息，用于整合。 
-· data/stock_info_sh.csv    股票列表-上证
-· data/stock_info_sz.csv    股票列表-深证
-· data/stock_info_bj.csv    股票列表-北证
-· data/change_name_sina.csv 新浪财经 提供的股票历史曾用名，目前已被巨潮资讯提供的内容代替。
+· data/stock_info_sh.csv    股票列表-上证  
+· data/stock_info_sz.csv    股票列表-深证  
+· data/stock_info_bj.csv    股票列表-北证  
+· data/change_name_sina.csv 新浪财经 提供的股票历史曾用名，目前已被巨潮资讯提供的内容代替。  
 
 ## 运行步骤
 ### 安装Python包  
